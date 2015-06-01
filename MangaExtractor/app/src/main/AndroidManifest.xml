@@ -20,6 +20,8 @@
         <meta-data
             android:name="AA_MODELS"
             android:value="itocorp.mangaextractor.model.Chapter,
+                           itocorp.mangaextractor.model.DetailAndChapter,
+                           itocorp.mangaextractor.model.DetailAndTag,
                            itocorp.mangaextractor.model.Manga,
                            itocorp.mangaextractor.model.MangaAndDetail,
                            itocorp.mangaextractor.model.MangaDetail,

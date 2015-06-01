@@ -12,10 +12,10 @@ import java.util.List;
 public class Chapter extends Model {
     @Column(name = "URL", unique = true)
     public String mURL;
-    @Column(name = "TITLE")
-    public String mTitle;
     @Column(name = "NUMBER")
     public int mNumber;
+    @Column(name = "TITLE")
+    public String mTitle;
     @Column(name = "DATE_PUBLISHED")
     public Date mPublishedDate;
     @Column(name = "PAGES")
